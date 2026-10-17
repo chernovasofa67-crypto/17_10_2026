@@ -8,4 +8,5 @@ add_executable(17_10_2026 main.cpp
         Truck.h
         Book.h
         Voice_recoding.h
+        Talking_book.h
 )
