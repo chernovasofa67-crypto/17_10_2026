@@ -49,7 +49,7 @@ public:
         <<":" <<tank_volume <<"л/Витраати:" <<fuel_consumption <<"л /100км\n";
     }
 
-    double calulateDistance() {
+    double calculateDistance() {
         return (tank_volume / fuel_consumption) * 100.0;
     }
 };

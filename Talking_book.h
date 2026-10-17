@@ -17,7 +17,7 @@ public:
     Talking_book(std::string auth, std::string ed , std::string p_date, long id, std::string spk, int dur, std::string r_date, int tapes)
         :Book(auth, ed, p_date, id), Voice_recoding(spk, dur, r_date), Tapes(tapes){}
 
-    void showTalkongBook() {
+    void showTalkingBook() {
         std::cout <<"-інформація про аудіокнигу-\n";
         showBook();
         showAudio();
