@@ -16,9 +16,9 @@ protected:
     double fuel_consumption;
 public:
     PassengerCar(std::string b, std::string c, double tv, double fc)
-        :brank(b), color(c), tank_volume(tv), fuel_consumption(fc){}
+        :brand(b), color(c), tank_volume(tv), fuel_consumption(fc){}
 
-    void setBrank(std::string b) {
+    void setBrand(std::string b) {
         brand = b;
     }
     std::string getBrand() {

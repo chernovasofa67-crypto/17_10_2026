@@ -15,10 +15,10 @@ private:
 public:
     Truck(std::string b, std::string c, double tv, double fc, double lc)
         :PassengerCar(b , c, tv , fc), load_capacity(lc) {
-        std::cout<< "[Створено об'єкт Truck для " << brank << "]\n";
+        std::cout<< "[Створено об'єкт Truck для " << brand << "]\n";
     }
     ~Truck() {
-        std::cout<< "[Знищено об'єкт Truck для " << brank << "]\n";
+        std::cout<< "[Знищено об'єкт Truck для " << brand << "]\n";
     }
 
     void setLoatCapacity(double lc) {
