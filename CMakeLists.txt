@@ -4,4 +4,5 @@ project(17_10_2026)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(17_10_2026 main.cpp
-        PassengerCar.h)
+        PassengerCar.h
+        Truck.h)
